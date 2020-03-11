@@ -2,7 +2,7 @@
 draft = false
 date = 2020-03-11T16:00:54+13:00
 title = "Some Useful Aliases in ~/.bashrc_profile"
-slug = "" 
+slug = ""
 tags = []
 categories = []
 thumbnail = "images/tn.png"
