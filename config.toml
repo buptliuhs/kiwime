@@ -1,6 +1,6 @@
-baseURL = "https://www.kiwime.club/"
+baseURL = "https://tonyl.netlify.com/"
 languageCode = "en-us"
-title = "KIWIME CLUB"
+title = "TONY LIU's Space"
 theme = "coder-portfolio"
 
 languagecode = "en" # The site’s language code used to generate RSS.
@@ -13,7 +13,7 @@ pygmentscodefences = true # Enable code fence background highlighting.
 pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
 pygmentsUseClasses = true # new add
 
-disqusShortname = "kiwime" # Enable or disable Disqus.
+disqusShortname = "tonyl" # Enable or disable Disqus.
 
 [params] # theme parameters
     author = "TONY LIU" # Author's name.
