@@ -14,11 +14,7 @@ description = ""
 $ docker run --name some-redis -d redis
 ```
 
-## Connect to Redis from another Docker Container
-```
-$ docker run --name some-redis-application --link some-redis:redis -d debian
-```
-
+### Connect to Redis from another Docker Container
 ```
 $ docker run -it --name some-redis-cli --link some-redis:redis --rm redis redis-cli -h redis -p 6379
 redis:6379>
@@ -29,12 +25,12 @@ redis:6379> get a
 redis:6379>
 ```
 
-## Run Redis with Port-Forwarding
+## Run Redis in a Docker Container with Port-Forwarding
 ```
 $ docker run --name some-redis -p 7001:6379 -d redis
 ```
 
-## Install redis-cli
+### Install redis-cli
 ```
 $ npm install -g redis-cli
 ```
